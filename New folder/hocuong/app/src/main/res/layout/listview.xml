@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtkhoan"
+        android:layout_width="201dp"
+        android:layout_height="46dp"
+        android:text="thu"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttenkhoan"
+        android:layout_width="201dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="1dp"
+        android:text="làm thêm"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtkhoan" />
+
+    <TextView
+        android:id="@+id/txtngay"
+        android:layout_width="211dp"
+        android:layout_height="46dp"
+        android:text="15/04/2015"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtkhoan"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtsotien"
+        android:layout_width="211dp"
+        android:layout_height="46dp"
+        android:text="40000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txttenkhoan"
+        app:layout_constraintTop_toBottomOf="@+id/txtngay" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
